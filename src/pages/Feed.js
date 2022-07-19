@@ -20,7 +20,7 @@ const Feed = (props) => {
 
   return (
   
-    <div className='grid min-h-screen justify-center my-20 py-10 grid-cols-2 lg:grid-cols-3'>
+    <div className='grid w-[85%] mx-auto items-center justify-center my-20 py-10 grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
         {
             loading&&<p>loading...</p>
         }

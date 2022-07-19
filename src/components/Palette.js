@@ -31,7 +31,7 @@ const Palette = (props) => {
   return (
     <motion.div
       
-      className="flex max-w-[18rem] h-80 md:h-96 flex-col m-4 p-2 md:m-4 md:p-4 bg-slate-100 rounded-xl ease-in-out duration-1000"
+      className="flex max-w-[18rem] h-[22rem]  md:h-96 lg:h-[23rem] flex-col m-4 p-2 md:m-4 md:p-4 bg-slate-100 rounded-xl ease-in-out duration-1000"
     >
       <div className="flex-1 flex flex-col mb-6">
         <motion.div
